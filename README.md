@@ -46,3 +46,14 @@ rbenv install 2.1.2
   * [rbenv-update](https://github.com/rkh/rbenv-update)
   * [rbenv-gem-rehash](https://github.com/sstephenson/rbenv-gem-rehash)
   * [rbenv-binstubs](https://github.com/ianheggie/rbenv-binstubs)
+
+## Use the pickaxe
+
+Install bundler and project dependencies.
+
+```bash
+# install bundler
+gem install bundler
+# install project dependencies
+bundle install --binstubs .bundle/bin
+```
