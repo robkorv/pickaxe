@@ -1,7 +1,7 @@
 pickaxe
 =======
 
-Me learning Ruby with a pickaxe
+Me learning Ruby with a pickaxe. I'm on Ubuntu Desktop 14.04.
 
 ## Creating a Ruby environment
 
@@ -26,6 +26,18 @@ Add the following to `~/.bashrc`, restart the terminal.
 # rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
+```
+
+Install `ruby-build` dependencies.
+
+```bash
+sudo apt-get install autoconf bison build-essential libssl-dev libyaml-dev libreadline6 libreadline6-dev zlib1g zlib1g-dev
+```
+
+Build and install Ruby
+
+```bash
+rbenv install 2.1.2
 ```
 
 ### Resources
