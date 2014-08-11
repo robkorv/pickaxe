@@ -40,13 +40,6 @@ Build and install Ruby
 rbenv install 2.1.2
 ```
 
-### Resources
-* [rbenv](https://github.com/sstephenson/rbenv)
-  * [ruby-build](https://github.com/sstephenson/ruby-build)
-  * [rbenv-update](https://github.com/rkh/rbenv-update)
-  * [rbenv-gem-rehash](https://github.com/sstephenson/rbenv-gem-rehash)
-  * [rbenv-binstubs](https://github.com/ianheggie/rbenv-binstubs)
-
 ## Use the pickaxe
 
 Install bundler and project dependencies.
@@ -57,3 +50,13 @@ gem install bundler
 # install project dependencies
 bundle install --binstubs .bundle/bin
 ```
+
+
+
+## Resources
+* [rbenv](https://github.com/sstephenson/rbenv)
+  * [ruby-build](https://github.com/sstephenson/ruby-build)
+  * [rbenv-update](https://github.com/rkh/rbenv-update)
+  * [rbenv-gem-rehash](https://github.com/sstephenson/rbenv-gem-rehash)
+  * [rbenv-binstubs](https://github.com/ianheggie/rbenv-binstubs)
+* [bundler](https://github.com/bundler/bundler/)
