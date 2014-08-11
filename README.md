@@ -14,10 +14,10 @@ git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
 git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
 # install rbenv rbenv-update plugin
 git clone https://github.com/rkh/rbenv-update.git ~/.rbenv/plugins/rbenv-update
-# install rbenv rbenv-gem-rehash plugin
-git clone https://github.com/sstephenson/rbenv-gem-rehash.git ~/.rbenv/plugins/rbenv-gem-rehash
 # install rbenv rbenv-binstubs plugin
 git clone https://github.com/ianheggie/rbenv-binstubs.git ~/.rbenv/plugins/rbenv-binstubs
+# install rbenv rbenv-gem-rehash plugin
+git clone https://github.com/sstephenson/rbenv-gem-rehash.git ~/.rbenv/plugins/rbenv-gem-rehash
 ```
 
 Add the following to `~/.bashrc`, restart the terminal.
@@ -57,6 +57,6 @@ bundle install --binstubs .bundle/bin
 * [rbenv](https://github.com/sstephenson/rbenv)
   * [ruby-build](https://github.com/sstephenson/ruby-build)
   * [rbenv-update](https://github.com/rkh/rbenv-update)
-  * [rbenv-gem-rehash](https://github.com/sstephenson/rbenv-gem-rehash)
   * [rbenv-binstubs](https://github.com/ianheggie/rbenv-binstubs)
+  * [rbenv-gem-rehash](https://github.com/sstephenson/rbenv-gem-rehash)
 * [bundler](https://github.com/bundler/bundler/)
